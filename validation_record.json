@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "initial_two_emitter_cases": 240,
+  "initial_moment_weighted_passes": 238,
+  "new_guard_cases": 192,
+  "new_guard_passes": 192,
+  "numerical_audit_records": 225,
+  "finite_pilots": 4608,
+  "paired_planning_rows": 36864,
+  "figure_count": 12,
+  "actual_device_shots": 608256,
+  "actual_hardware_jobs": 32,
+  "signal_interval_width_reduction": 0.27019280684626845,
+  "control_interval_width_increase": 0.2708860020327364,
+  "median_precision_to_decision_shot_ratio": 12.589258666639873,
+  "prospective_comparison_pairs": 64,
+  "prospective_power_lower_bound": 0.9234054381487532
+}

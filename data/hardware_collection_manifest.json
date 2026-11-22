@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "run_id": "2a65efb06ed94330",
+  "created_utc": "2026-11-19T02:21:09.602860+00:00",
+  "protocol_id": "allocation-validation-v2-batched",
+  "provenance": "ibm_hardware",
+  "allocation_source_protocol_id": "allocation-validation-v1",
+  "purpose": "paired_batched_allocation_hardware_pilot",
+  "backend": "ibm_marrakesh",
+  "physical_qubits": [
+    14,
+    55
+  ],
+  "planning_device_match": true,
+  "schedule_sha256": "8268af6c32f08179944fdbdf609ee6472d0c6dd44b05347c2ec8f82da22b4806",
+  "frozen_profile_sha256": "12a48b227cbaa8718f5cf5ed15577e202cd76d39abf8292c45f7d3ad683d0c35",
+  "planned_shots": 608256,
+  "planned_device_shots": 608256,
+  "family_alpha": 0.05,
+  "instance_sha256": "4bf253a9135a1231a0175a90ff6c60688fa6c8aa91d649c011cafbc553ebf7f0",
+  "instance_plan": "open",
+  "usage_snapshot_before": {
+    "usage_consumed_seconds": 348,
+    "usage_consumed_ru": 4.970148,
+    "usage_limit_seconds": 600,
+    "usage_limit_ru": 10,
+    "usage_limit_reached": false,
+    "usage_remaining_seconds": 252,
+    "usage_remaining_ru": 5.029852
+  },
+  "demo_profile": null,
+  "initial_ru_preflight": {
+    "available_ru_used_for_check": 5.029852,
+    "estimated_requirement_with_reserve_ru": 4.814826666666667,
+    "reserve_ru": 0.2,
+    "estimated_headroom_ru": 0.41502533333333336,
+    "check_passed": true,
+    "scope": "Initial advisory feasibility check, not a hard usage cap. Live and declared balances use the smaller value when both are available."
+  },
+  "usage_estimates": {
+    "empirical_estimate_ru": 3.8966015999999994,
+    "ibm_generic_estimate_ru": 4.614826666666667,
+    "physical_jobs": 32,
+    "acquired_shots": 608256,
+    "assumption": "One modeled preparation overhead per physical job. Extra server sub-jobs and changed timing can increase consumption.",
+    "not_a_guaranteed_maximum": true
+  },
+  "python": "3.14.6",
+  "packages": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.2",
+    "qiskit-ibm-runtime": "0.52.1"
+  },
+  "source_sha256": {
+    "experiment.py": "4040e373ea5e074d90460c992e87848a7ea8c6a3ae10b3bb29ef95179156afc3",
+    "logical_schedule.py": "135fb5249cb5abbd5f9b40951b213bea2d114e909ca66ba7e0c115915455a177",
+    "ru_estimate.py": "c2ec8ea2fbb5bd81d7de35d3f735cf09c616261dbad14172389527cced1a1fdd",
+    "runtime_io.py": "ef53e5abf56ef726396f71f4b81685b8f369ad0f10dddb6cc38f2a235e0ad71d",
+    "run_allocation_validation.py": "4b5f61709d85278d1f9a32c56d174eeed8f84dcb897d0fb6890af05a3167837d",
+    "analyze_allocation_validation.py": "ba095592319133991a674bf40eceaa9939f1708e5ce3ed6117f8badc92f7beaf",
+    "intervals.py": "8dc6a53b5bd35da141177b8917cc105a9380b19fe6584d5258f22e481b73c9d6",
+    "matrix_readout.py": "f2b16efcf854aeda0176cd3e04f913f3aad6d9b237b8d64078713b41bbd76484",
+    "readout_intervals.py": "5cee13fb4f1d5a4de5201dc10aa933ea9a435ff760897a8e5b52be3d4bf738a3",
+    "frozen_allocation.json": "12a48b227cbaa8718f5cf5ed15577e202cd76d39abf8292c45f7d3ad683d0c35",
+    "planning_evidence.json": "02f668971f12b6fa83e4196700a1bfe1655847a5c6b96173bc481bb21d33c998"
+  },
+  "timing_policy": "Within each block both arms have distinct PUBs in one shared calibration job, which finishes before the shared science job is submitted. PUB order is precommitted and mixed; physical arm order is not asserted.",
+  "preparation": "X-only nominal number-label mixtures. Source labels are reserved for diagnostics; the primary estimator uses calibration and science measurements only.",
+  "scope": "One paired allocation pilot; no cavity dynamics, hardware power rate, or general resource advantage is established."
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "provenance": "synthetic_offline",
+  "config_sha256": "67f6648ab089cb276a1f4357b540af198f48df399faed1f3695e783ca3906fc8",
+  "smoke": false,
+  "selection_status": "selected_on_planning_simulations_only",
+  "independent_validation_performed": true,
+  "matched_model_goals_met": true,
+  "minimum_validation_study_power_lower_bound": 0.9234054381487532,
+  "maximum_validation_control_false_upper_bound": 0.0034223938682366685,
+  "minimum_validation_family_coverage_lower_bound": 0.9965776061317634,
+  "minimum_validation_selected_joint_lower_bound": 0.8517207794237236,
+  "chosen_design": {
+    "id": "b04_u0594",
+    "requested_scale": 0.5,
+    "blocks": 4,
+    "microbatch": 64,
+    "arms": {
+      "reference_allocation": {
+        "calibration": [
+          3264,
+          3136,
+          3072,
+          3072
+        ],
+        "science": {
+          "signal": 12544,
+          "control": 12544
+        }
+      },
+      "selected_allocation": {
+        "calibration": [
+          11264,
+          7104,
+          384,
+          128
+        ],
+        "science": {
+          "signal": 14080,
+          "control": 4672
+        }
+      }
+    },
+    "physical_jobs_per_pair": 8,
+    "acquired_shots_per_pair": 304128,
+    "acquired_shots_per_arm": 152064,
+    "analyzed_shots_per_arm": 150528,
+    "predeclared_padding_per_arm": 1536,
+    "actual_scale": 0.5,
+    "usage_estimates_per_pair": {
+      "empirical_ru": 1.7216459999999998,
+      "generic_ru": 2.0407466666666667,
+      "planning_ru": 2.0407466666666667,
+      "assumption": "One overhead per submitted physical job; extrapolation from provisional metrics, not a hard cap."
+    }
+  },
+  "planned_hardware_pairs": 64,
+  "estimated_confirmatory_series_ru": 130.60778666666667,
+  "resource_target_ru": 10.0,
+  "within_resource_target": false,
+  "fits_previous_estimated_remaining_ru": false,
+  "ready_for_hardware_schedule_review": false,
+  "actual_new_hardware_jobs": 0,
+  "actual_new_hardware_shots": 0,
+  "actual_resource_units_used": 0,
+  "scope": "Conditional design for iid paired full experiments in the listed response models. Not empirical hardware power, a hard RU cap, or a ready-to-submit collector."
+}

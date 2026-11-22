@@ -1,0 +1,77 @@
+[
+  {
+    "file": "evidence/Photon_Blockade_Physics_Audit_Code.zip",
+    "sha256": "dd12681f4b276044873755c47be5d72e7e3a39398e4e2e6f54285c57b8ebd3a6",
+    "bytes": 2501136
+  },
+  {
+    "file": "evidence/Photon_Blockade_Physics_Audit_Results.zip",
+    "sha256": "53ae929c577c77752b4c5b9f47e9f982d8b9b438ad72fd17f1b88aebd71ec1bf",
+    "bytes": 259334
+  },
+  {
+    "file": "evidence/Photon_Blockade_Physics_Audit_Analysis.zip",
+    "sha256": "9b5a855f23a0d440a5e45656c7544f2996769e53a741a856c8f2cb2206f66091",
+    "bytes": 273105
+  },
+  {
+    "file": "evidence/Photon_Blockade_Allocation_Code.zip",
+    "sha256": "33b4995b040925fd9521c8e36515e70e4c956bf247c200bb6f8d6344aea88cdf",
+    "bytes": 18369
+  },
+  {
+    "file": "evidence/Photon_Blockade_Finite_Pilot_Code.zip",
+    "sha256": "82f7a85a60a6bd78a2e7816eae4a277228081e37fd68f9c189f80b07d200c7b8",
+    "bytes": 14008
+  },
+  {
+    "file": "evidence/photon_blockade_finite_pilot_results.zip",
+    "sha256": "2f456cc72b00f94712601619751acf5ea974fba659c4b4849b622d5f37895064",
+    "bytes": 2440371
+  },
+  {
+    "file": "evidence/photon_blockade_allocation_results.zip",
+    "sha256": "512a8fd1f21ea719fc43b53d4487e4f54606f08fff5f23eb67e264299030016b",
+    "bytes": 414938
+  },
+  {
+    "file": "evidence/Photon_Blockade_Followup_Code.zip",
+    "sha256": "639b19741fc8b73d9d6f5233e1a825215a67b3c7c6b744ec0c91f60701a4623f",
+    "bytes": 12301
+  },
+  {
+    "file": "evidence/Photon_Blockade_Cutoff_and_Shots_Pilot.zip",
+    "sha256": "22768210b44b0968a50cee1af3766c09d4ae66210227baae3d67fca263e101c7",
+    "bytes": 1331297
+  },
+  {
+    "file": "evidence/photon_blockade_followup_results.zip",
+    "sha256": "bb173716e57f5b8fb35d220b80db154e2165acbaeab5d0a81d40655c109b8405",
+    "bytes": 1227848
+  },
+  {
+    "file": "evidence/Photon_Blockade_Allocation_Validation_Batched_Results.zip",
+    "sha256": "98291d4ff4075ba4da9ca0a10d4b15ea019863f49c6db0a2246191ac08c5ee11",
+    "bytes": 355058
+  },
+  {
+    "file": "evidence/Photon_Blockade_Allocation_Validation_Batched_Analysis.zip",
+    "sha256": "e6b0f70ff989a5c9c12f188d9e3ba1ca564a60a2869f29f6ea2eee08b1396906",
+    "bytes": 174521
+  },
+  {
+    "file": "evidence/Photon_Blockade_Replication_Planning_Code.zip",
+    "sha256": "1067c2d6a3494219329b30a556dc6a4cc0a3ad75a05fd42a609973146874b1c4",
+    "bytes": 350766
+  },
+  {
+    "file": "evidence/Photon_Blockade_Replication_Refined_Analysis.zip",
+    "sha256": "1d8adfd7faae38c0c3f86eea38dd3951fc183c0d3a99e106e991862ea2022398",
+    "bytes": 281247
+  },
+  {
+    "file": "evidence/Photon_Blockade_Replication_Planning_Results.zip",
+    "sha256": "e2ad9e553238201092f5f4fb92443a393998fdb964319734ee97e706b5330e9b",
+    "bytes": 9212869
+  }
+]

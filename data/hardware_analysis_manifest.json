@@ -1,0 +1,531 @@
+{
+  "schema_version": 2,
+  "protocol_id": "allocation-validation-v2-batched",
+  "provenance": "ibm_hardware",
+  "purpose": "paired_batched_allocation_hardware_pilot",
+  "backend": "ibm_marrakesh",
+  "physical_qubits": [
+    14,
+    55
+  ],
+  "planning_device_match": true,
+  "actual_device_shots": 608256,
+  "actual_hardware_jobs": 32,
+  "recorded_physical_stages": 32,
+  "recorded_shots": 608256,
+  "analyzed_shots": 595968,
+  "predeclared_discarded_shots": 12288,
+  "family_alpha": 0.05,
+  "schedule_sha256": "8268af6c32f08179944fdbdf609ee6472d0c6dd44b05347c2ec8f82da22b4806",
+  "frozen_profile_sha256": "12a48b227cbaa8718f5cf5ed15577e202cd76d39abf8292c45f7d3ad683d0c35",
+  "logical_schedule_sha256": "6b0f4dab36ea9ba91bce2057db1f095363a2a0481d2b794e6320760be7fb94d7",
+  "logical_source_schedule_preserved": true,
+  "arm_budgets": {
+    "reference_allocation": {
+      "calibration": 99328,
+      "calibration_by_state": [
+        25600,
+        24576,
+        24576,
+        24576
+      ],
+      "signal": 99328,
+      "control": 99328,
+      "acquired_shots": 304128,
+      "analyzed_shots": 297984,
+      "discarded_shots": 6144,
+      "shared_job_memberships": 32
+    },
+    "selected_allocation": {
+      "calibration": 149504,
+      "calibration_by_state": [
+        89088,
+        56320,
+        3072,
+        1024
+      ],
+      "signal": 111616,
+      "control": 36864,
+      "acquired_shots": 304128,
+      "analyzed_shots": 297984,
+      "discarded_shots": 6144,
+      "shared_job_memberships": 32
+    }
+  },
+  "arm_shared_cost_accounting": {
+    "reference_allocation": {
+      "acquired_shots": 304128,
+      "actual_device_shots": 304128,
+      "analyzed_shots": 297984,
+      "shared_job_memberships": 32,
+      "hardware_job_memberships": 32,
+      "ru_attribution": "Not apportioned: these jobs are shared by both arms."
+    },
+    "selected_allocation": {
+      "acquired_shots": 304128,
+      "actual_device_shots": 304128,
+      "analyzed_shots": 297984,
+      "shared_job_memberships": 32,
+      "hardware_job_memberships": 32,
+      "ru_attribution": "Not apportioned: these jobs are shared by both arms."
+    }
+  },
+  "physical_cost_totals": {
+    "recorded_physical_stages": 32,
+    "actual_hardware_jobs": 32,
+    "acquired_shots": 608256,
+    "actual_device_shots": 608256,
+    "available_resource_units": 3.8967840000000002,
+    "jobs_with_ru_metric": 32,
+    "jobs_ru_pending": 32,
+    "jobs_ru_complete": 0,
+    "available_qpu_charge_seconds": 256,
+    "jobs_with_charge_metric": 32,
+    "accounting": "Each physical job and its usage appears once. Arm job memberships overlap and are not additive."
+  },
+  "results": [
+    {
+      "arm": "reference_allocation",
+      "population": "signal",
+      "target_g2": 0.5437676426767554,
+      "target_mean": 0.15589524892171233,
+      "science_shots": 99328,
+      "shared_arm_calibration_shots": 99328,
+      "total_arm_acquired_shots": 304128,
+      "raw_g2": 0.6607690141120706,
+      "corrected_g2": 0.5622598606145665,
+      "absolute_error": 0.018492217937811084,
+      "interval_lower": 0.290995694896378,
+      "interval_upper": 0.8726139286543604,
+      "interval_status": "ok",
+      "upper_is_unbounded": 0,
+      "number_label_antibunching_call": 1,
+      "target_covered": 1,
+      "point_estimate_status": "ok",
+      "realized_source_labels_g2": 0.5622010811689288
+    },
+    {
+      "arm": "reference_allocation",
+      "population": "control",
+      "target_g2": 1.0,
+      "target_mean": 0.15589524892171233,
+      "science_shots": 99328,
+      "shared_arm_calibration_shots": 99328,
+      "total_arm_acquired_shots": 304128,
+      "raw_g2": 1.1340238016879833,
+      "corrected_g2": 1.0647779170362635,
+      "absolute_error": 0.06477791703626345,
+      "interval_lower": 0.7638958893079064,
+      "interval_upper": 1.4534271801765306,
+      "interval_status": "ok",
+      "upper_is_unbounded": 0,
+      "number_label_antibunching_call": 0,
+      "target_covered": 1,
+      "point_estimate_status": "ok",
+      "realized_source_labels_g2": 1.0599808744206047
+    },
+    {
+      "arm": "selected_allocation",
+      "population": "signal",
+      "target_g2": 0.5437676426767554,
+      "target_mean": 0.15589524892171233,
+      "science_shots": 111616,
+      "shared_arm_calibration_shots": 149504,
+      "total_arm_acquired_shots": 304128,
+      "raw_g2": 0.6552023881400769,
+      "corrected_g2": 0.5638275571970214,
+      "absolute_error": 0.02005991452026601,
+      "interval_lower": 0.38339736108763806,
+      "interval_upper": 0.807866531753582,
+      "interval_status": "ok",
+      "upper_is_unbounded": 0,
+      "number_label_antibunching_call": 1,
+      "target_covered": 1,
+      "point_estimate_status": "ok",
+      "realized_source_labels_g2": 0.5767019728742507
+    },
+    {
+      "arm": "selected_allocation",
+      "population": "control",
+      "target_g2": 1.0,
+      "target_mean": 0.15589524892171233,
+      "science_shots": 36864,
+      "shared_arm_calibration_shots": 149504,
+      "total_arm_acquired_shots": 304128,
+      "raw_g2": 1.1052999938184582,
+      "corrected_g2": 1.039121650656799,
+      "absolute_error": 0.03912165065679907,
+      "interval_lower": 0.693590476534467,
+      "interval_upper": 1.5699061420629647,
+      "interval_status": "ok",
+      "upper_is_unbounded": 0,
+      "number_label_antibunching_call": 0,
+      "target_covered": 1,
+      "point_estimate_status": "ok",
+      "realized_source_labels_g2": 1.028136698466369
+    }
+  ],
+  "arm_outcomes": [
+    {
+      "arm": "reference_allocation",
+      "signal_call": 1,
+      "control_false_call": 0,
+      "control_target_covered": 1,
+      "joint_success_this_pilot": 1,
+      "signal_absolute_error": 0.018492217937811084,
+      "control_absolute_error": 0.06477791703626345
+    },
+    {
+      "arm": "selected_allocation",
+      "signal_call": 1,
+      "control_false_call": 0,
+      "control_target_covered": 1,
+      "joint_success_this_pilot": 1,
+      "signal_absolute_error": 0.02005991452026601,
+      "control_absolute_error": 0.03912165065679907
+    }
+  ],
+  "stages_time_ordered": true,
+  "calibration_to_science_gaps": [
+    {
+      "block": 0,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5q5mps3fc73bjtek0",
+      "science_job_id": "dbv5qd782tmc73duf880",
+      "calibration_stop_utc": "2026-11-19T02:21:36.812091+00:00",
+      "science_start_utc": "2026-11-19T02:22:26.326566+00:00",
+      "gap_seconds": 49.514475,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 1,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5qslarooc73fl0dtg",
+      "science_job_id": "dbv5r3vf8rhs73bnbg6g",
+      "calibration_stop_utc": "2026-11-19T02:23:08.609599+00:00",
+      "science_start_utc": "2026-11-19T02:23:42.620285+00:00",
+      "gap_seconds": 34.010686,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 2,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5rf782tmc73duf9gg",
+      "science_job_id": "dbv5rnf82tmc73duf9sg",
+      "calibration_stop_utc": "2026-11-19T02:24:26.340548+00:00",
+      "science_start_utc": "2026-11-19T02:24:57.320283+00:00",
+      "gap_seconds": 30.979735,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 3,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5s0v82tmc73dufa80",
+      "science_job_id": "dbv5s8ff8rhs73bnbhgg",
+      "calibration_stop_utc": "2026-11-19T02:25:33.486636+00:00",
+      "science_start_utc": "2026-11-19T02:26:05.260470+00:00",
+      "gap_seconds": 31.773834,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 4,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5sinf8rhs73bnbhs0",
+      "science_job_id": "dbv5sptarooc73fl0fvg",
+      "calibration_stop_utc": "2026-11-19T02:26:44.601145+00:00",
+      "science_start_utc": "2026-11-19T02:27:18.285886+00:00",
+      "gap_seconds": 33.684741,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 5,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5t47f8rhs73bnbih0",
+      "science_job_id": "dbv5tbeps3fc73bjticg",
+      "calibration_stop_utc": "2026-11-19T02:27:54.940694+00:00",
+      "science_start_utc": "2026-11-19T02:28:26.204347+00:00",
+      "gap_seconds": 31.263653,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 6,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5tl6ps3fc73bjtiog",
+      "science_job_id": "dbv5ts782tmc73dufce0",
+      "calibration_stop_utc": "2026-11-19T02:29:01.317665+00:00",
+      "science_start_utc": "2026-11-19T02:29:34.176941+00:00",
+      "gap_seconds": 32.859276,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 7,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5u65arooc73fl0hg0",
+      "science_job_id": "dbv5udups3fc73bjtjl0",
+      "calibration_stop_utc": "2026-11-19T02:30:10.910236+00:00",
+      "science_start_utc": "2026-11-19T02:30:45.569038+00:00",
+      "gap_seconds": 34.658802,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 8,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5unv82tmc73dufdcg",
+      "science_job_id": "dbv5uv782tmc73dufdmg",
+      "calibration_stop_utc": "2026-11-19T02:31:21.720779+00:00",
+      "science_start_utc": "2026-11-19T02:31:54.247530+00:00",
+      "gap_seconds": 32.526751,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 9,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5v9eps3fc73bjtkk0",
+      "science_job_id": "dbv5vgdarooc73fl0irg",
+      "calibration_stop_utc": "2026-11-19T02:32:31.464124+00:00",
+      "science_start_utc": "2026-11-19T02:33:02.526790+00:00",
+      "gap_seconds": 31.062666,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 10,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv5vqdarooc73fl0j6g",
+      "science_job_id": "dbv601vf8rhs73bnbm3g",
+      "calibration_stop_utc": "2026-11-19T02:33:40.271560+00:00",
+      "science_start_utc": "2026-11-19T02:34:12.329738+00:00",
+      "gap_seconds": 32.058178,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 11,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv60bdarooc73fl0jq0",
+      "science_job_id": "dbv60itarooc73fl0k30",
+      "calibration_stop_utc": "2026-11-19T02:34:48.044064+00:00",
+      "science_start_utc": "2026-11-19T02:35:21.286369+00:00",
+      "gap_seconds": 33.242305,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 12,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv60t782tmc73duffu0",
+      "science_job_id": "dbv614eps3fc73bjtmkg",
+      "calibration_stop_utc": "2026-11-19T02:35:58.976116+00:00",
+      "science_start_utc": "2026-11-19T02:36:32.092891+00:00",
+      "gap_seconds": 33.116775,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 13,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv61enf8rhs73bnbnmg",
+      "science_job_id": "dbv61meps3fc73bjtn90",
+      "calibration_stop_utc": "2026-11-19T02:37:09.154729+00:00",
+      "science_start_utc": "2026-11-19T02:37:43.464366+00:00",
+      "gap_seconds": 34.309637,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 14,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv620eps3fc73bjtnjg",
+      "science_job_id": "dbv627mps3fc73bjtns0",
+      "calibration_stop_utc": "2026-11-19T02:38:20.079824+00:00",
+      "science_start_utc": "2026-11-19T02:38:50.147174+00:00",
+      "gap_seconds": 30.06735,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    },
+    {
+      "block": 15,
+      "applies_to": "both_arms",
+      "calibration_job_id": "dbv62h5arooc73fl0m7g",
+      "science_job_id": "dbv62off8rhs73bnbp20",
+      "calibration_stop_utc": "2026-11-19T02:39:26.656312+00:00",
+      "science_start_utc": "2026-11-19T02:39:59.623280+00:00",
+      "gap_seconds": 32.966968,
+      "calibration_timing_kind": "execution_window",
+      "science_timing_kind": "execution_window"
+    }
+  ],
+  "calibration_counts": {
+    "reference_allocation": [
+      [
+        25496,
+        124,
+        134,
+        2
+      ],
+      [
+        70,
+        24424,
+        1,
+        158
+      ],
+      [
+        34,
+        0,
+        24386,
+        130
+      ],
+      [
+        0,
+        28,
+        55,
+        24286
+      ]
+    ],
+    "selected_allocation": [
+      [
+        88789,
+        306,
+        16,
+        0
+      ],
+      [
+        192,
+        55960,
+        0,
+        5
+      ],
+      [
+        106,
+        0,
+        3050,
+        5
+      ],
+      [
+        1,
+        54,
+        6,
+        1014
+      ]
+    ]
+  },
+  "science_counts": {
+    "reference_allocation": {
+      "signal": [
+        84364,
+        14219,
+        705,
+        40
+      ],
+      "control": [
+        84949,
+        12993,
+        1368,
+        18
+      ]
+    },
+    "selected_allocation": {
+      "signal": [
+        94840,
+        15912,
+        838,
+        26
+      ],
+      "control": [
+        31453,
+        4902,
+        500,
+        9
+      ]
+    }
+  },
+  "realized_source_label_counts": {
+    "reference_allocation": {
+      "signal": [
+        84564,
+        14123,
+        625,
+        16
+      ],
+      "control": [
+        85155,
+        12900,
+        1273,
+        0
+      ]
+    },
+    "selected_allocation": {
+      "signal": [
+        95009,
+        15849,
+        747,
+        11
+      ],
+      "control": [
+        31513,
+        4878,
+        473,
+        0
+      ]
+    }
+  },
+  "record_sha256": {
+    "stages/stage_000.json": "bd754f03c1e8111724c18e107da3b377f68270bae4090c73a21768891a37d695",
+    "stages/stage_001.json": "38579c43c9e1946990e908307f52ae4827eb53af183b6ec0a5e5f72c1d546c47",
+    "stages/stage_002.json": "25cae2ee591c50c9a6fe020c7a02f89b1ed34d77301d268422f2b0f3422f6f04",
+    "stages/stage_003.json": "53614e53cac0e8438a848537214caad2a0143a17d4fe0db525ed4826aa363837",
+    "stages/stage_004.json": "d1d07ec086b0cf405b9a6219bfa9638ec9394435178ca6c1cb394954c1467870",
+    "stages/stage_005.json": "b5fa8a85e2147c8b15b7dbb486451e810d360aec34f64676562a827eee10bffc",
+    "stages/stage_006.json": "d516c248cc4c66f42c9a5eec2ba335c68f9762825d9658f906638c3b4de607e6",
+    "stages/stage_007.json": "e7e89d07577d565b8647e2a02063f59467c106c5b85d4cd2e1f039cbd41d03ac",
+    "stages/stage_008.json": "5935c297d35c5361e83ccc322ff7772a294e3c5a56c5ded1a93014d542f15dcc",
+    "stages/stage_009.json": "d273639fe290f766b042bb26c79dff88f6f155c454b96f577338010d461245c7",
+    "stages/stage_010.json": "29859e985d140a90262ac6c4634eb7e78be04a0e3d1ae92dabb7c7851d1a13a8",
+    "stages/stage_011.json": "90e9443a16a286f43c38542eb534a09e84e60c59862b56fba27fba649fb2df0f",
+    "stages/stage_012.json": "fe6c3439a7dd35005ff3da6fe731a4cbbfdec33071b48eea8396a95a099e9b07",
+    "stages/stage_013.json": "0c411f2b7e0aa16b217c8a0ab8926737b28da0a183e930cf9aa11d8cd927e7c0",
+    "stages/stage_014.json": "bb58f592795d15d8ed0d2aee2da31e3054a6f19f7819c67b756df2629f97e646",
+    "stages/stage_015.json": "2d623f27b03abe39cef688b165352336f50d5b5bba7faa93d3a7fd75b7d2e8f6",
+    "stages/stage_016.json": "e6c2aa0fdf4a26b5f367312a10c27550a152942ad66e0eec5059a080ef3ee042",
+    "stages/stage_017.json": "81ab78a3bf2b0b6f8c454f6190f21e3269921e066eb6fe05feca0962673d0058",
+    "stages/stage_018.json": "a17f1bfedad0968b183b3dcd08671b29862be95cd571503ab28cb0d46d89acea",
+    "stages/stage_019.json": "65147e1b1bf3ba512c0fea106a961e628bca4ba9e41321c56624675e8c820231",
+    "stages/stage_020.json": "a23d664e3784f66aeda7788adc182de68640491f11ad28bbce8580b4399d1405",
+    "stages/stage_021.json": "88acd7911444a1172ca18bed3386affae9e7a0c5031cd30e418f93b078b8f8c7",
+    "stages/stage_022.json": "3fb78e09fead3b4dd07db671ca88b08d419804f671508863118d09504617de24",
+    "stages/stage_023.json": "5dffa0a1de4813b426c14755b10cf7279b3d500b8ef089e32cd51f22e0f60e3c",
+    "stages/stage_024.json": "683c0d75977c08a77e4c4ed34721ad2e5ae3cad2fa2a745386c70d02d6d64cdd",
+    "stages/stage_025.json": "8302a13026cb09adac2f686f9756d214eb9a6c08adf00c6703efd9299d633aff",
+    "stages/stage_026.json": "bd8e8509f1e5ab05f2b4810f78b8a4daf249d2059e17af8b56ab0d8770d62ca7",
+    "stages/stage_027.json": "8c8b183da45c9d23d6812e7ea47786a8ec0b454218600af05c1835dad274cd26",
+    "stages/stage_028.json": "710b8da440da31624d335c557007678747c0b572b095eb71e405e67826dad315",
+    "stages/stage_029.json": "619969415d6e4fef389475113275e7e5353dc36f0381b4a5f87dbf71e8a4d8a3",
+    "stages/stage_030.json": "d677dc3696b60e4c959ba8a9a614fa840c52c1d27df40014b6db9269004e82b5",
+    "stages/stage_031.json": "35a124821cf2a262ae2a2dc63202e942f7b28632801c4f924b72b52f0c7837e9"
+  },
+  "analysis_source_sha256": {
+    "analyze_allocation_validation.py": "ba095592319133991a674bf40eceaa9939f1708e5ce3ed6117f8badc92f7beaf",
+    "experiment.py": "4040e373ea5e074d90460c992e87848a7ea8c6a3ae10b3bb29ef95179156afc3",
+    "logical_schedule.py": "135fb5249cb5abbd5f9b40951b213bea2d114e909ca66ba7e0c115915455a177",
+    "intervals.py": "8dc6a53b5bd35da141177b8917cc105a9380b19fe6584d5258f22e481b73c9d6",
+    "matrix_readout.py": "f2b16efcf854aeda0176cd3e04f913f3aad6d9b237b8d64078713b41bbd76484",
+    "readout_intervals.py": "5cee13fb4f1d5a4de5201dc10aa933ea9a435ff760897a8e5b52be3d4bf738a3"
+  },
+  "interpretation": "One new paired allocation pilot with shared physical jobs. Arm outcomes are distinct; shared job memberships and costs are not independent repetitions or additive jobs.",
+  "confidence_assumptions": [
+    "Independent outcomes conditional on the response path.",
+    "Each arm's calibration and science response match within a block despite grouping and preparation history.",
+    "Per-input calibration counts and each population's science counts remain constant across blocks.",
+    "Within-job physical arm or shot ordering is not asserted."
+  ],
+  "scope": "Number-label SPAM benchmark; no physical cavity dynamics, empirical hardware power/FPR rate, or general resource advantage is established."
+}

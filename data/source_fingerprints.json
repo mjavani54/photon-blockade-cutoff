@@ -1,0 +1,152 @@
+[
+  {
+    "file": "data/initial_calibration_cases.csv",
+    "source": "cutoff_evidence_sources/extracted/Photon_Blockade_Cutoff_and_Shots_Pilot/results/calibration_cases.csv",
+    "sha256": "8009feb48e942e514f8d0213a7e261f1807ba5de57748c9ea28728b962803df8"
+  },
+  {
+    "file": "data/initial_validation_cases.csv",
+    "source": "cutoff_evidence_sources/extracted/Photon_Blockade_Cutoff_and_Shots_Pilot/results/validation_cases.csv",
+    "sha256": "8c8e349ccf47e2f4ef0b9e4df913724f1387af7e373bc1ffe574fb203574b02c"
+  },
+  {
+    "file": "data/initial_calibration_cutoffs.csv",
+    "source": "cutoff_evidence_sources/extracted/Photon_Blockade_Cutoff_and_Shots_Pilot/results/calibration_cutoffs.csv",
+    "sha256": "a342713f1b3895a4c562194385f53d7eb18a6a56d9eb5ec8535e53b6a6efac22"
+  },
+  {
+    "file": "data/initial_validation_cutoffs.csv",
+    "source": "cutoff_evidence_sources/extracted/Photon_Blockade_Cutoff_and_Shots_Pilot/results/validation_cutoffs.csv",
+    "sha256": "e619b1c8a42ef4f821003c280909d24ae4e27b23dfc3cfb26fb6e6b1bc688d09"
+  },
+  {
+    "file": "data/initial_rule.json",
+    "source": "cutoff_evidence_sources/extracted/Photon_Blockade_Cutoff_and_Shots_Pilot/results/rule.json",
+    "sha256": "f2963f3af038ddf9a3fe15d90d83f501f853b29459c22faeff7183b1def8bdcd"
+  },
+  {
+    "file": "data/followup_cases.csv",
+    "source": "cutoff_evidence_sources/extracted/photon_blockade_followup_results/photon_blockade_followup_results/cases.csv",
+    "sha256": "22fffaf98ca4ea396b815ba0bed30057f3f83a087593452f9ea139fbc37a1ffe"
+  },
+  {
+    "file": "data/followup_cutoffs.csv",
+    "source": "cutoff_evidence_sources/extracted/photon_blockade_followup_results/photon_blockade_followup_results/cutoff_trace.csv",
+    "sha256": "8a117dc0c4da7ff38f48768f0dd90118760986b9a907718c1625146a72351df8"
+  },
+  {
+    "file": "data/allocation_plans.csv",
+    "source": "cutoff_evidence_sources/extracted/photon_blockade_allocation_results/photon_blockade_allocation_results/plans.csv",
+    "sha256": "646c1a570d7692e9df5585d93a1bc1651b9675d46ef1bd4d62d650d34db3eaf0"
+  },
+  {
+    "file": "data/allocation_validation.csv",
+    "source": "cutoff_evidence_sources/extracted/photon_blockade_allocation_results/photon_blockade_allocation_results/validation.csv",
+    "sha256": "8fbf4ab88f0db245bf2e6cd834d9328c3b9ba9a66b8ff2be73f99e4f06358b92"
+  },
+  {
+    "file": "data/allocation_manifest.json",
+    "source": "cutoff_evidence_sources/extracted/photon_blockade_allocation_results/photon_blockade_allocation_results/manifest.json",
+    "sha256": "a82202c69b6e028ff38033d8845b3c772ae685b946cb79e1d36b9f35a95de7c5"
+  },
+  {
+    "file": "data/finite_pilot_summary.csv",
+    "source": "cutoff_evidence_sources/extracted/photon_blockade_finite_pilot_results/photon_blockade_finite_pilot_results/summary.csv",
+    "sha256": "9773e727d149d65b3b00c1bcadc5dfd4e429c4bc0a942701bdb008172957053f"
+  },
+  {
+    "file": "data/finite_pilot_trials.csv",
+    "source": "cutoff_evidence_sources/extracted/photon_blockade_finite_pilot_results/photon_blockade_finite_pilot_results/trials.csv",
+    "sha256": "27be4c77a19feb71abbe6172f8c3344fd7f860303f32f9d3953c18757da75a51"
+  },
+  {
+    "file": "data/finite_pilot_counts.csv",
+    "source": "cutoff_evidence_sources/extracted/photon_blockade_finite_pilot_results/photon_blockade_finite_pilot_results/pilot_counts.csv",
+    "sha256": "3b5cef991b6ab1ab2bc6bb77108e94ff31db6ddb979b8d9109a55d836dfa0b99"
+  },
+  {
+    "file": "data/finite_pilot_manifest.json",
+    "source": "cutoff_evidence_sources/extracted/photon_blockade_finite_pilot_results/photon_blockade_finite_pilot_results/manifest.json",
+    "sha256": "7d03e957f6aa48e87b7bb1c0640a4a2708bd6372afcf4435b372440305de0cbc"
+  },
+  {
+    "file": "data/verification_reference_checks.csv",
+    "source": "Photon_Blockade_Physics_Audit_Analysis/reference_checks.csv",
+    "sha256": "c84d84eafbc9fcbc10b3613b2198fa550eaeb80f047388c6a3b9ef281e0c1d74"
+  },
+  {
+    "file": "data/verification_independent_checks.csv",
+    "source": "Photon_Blockade_Physics_Audit_Analysis/independent_checks.csv",
+    "sha256": "ae99db1108131ee48b1cb7c3f46fbf28155fd7007467034eec5767fa314d2f54"
+  },
+  {
+    "file": "data/verification_analysis.json",
+    "source": "Photon_Blockade_Physics_Audit_Analysis/analysis_summary.json",
+    "sha256": "73445ed4bee7df79ac98c31f8efa9a997387663642fe1071934c83e3481abe40"
+  },
+  {
+    "file": "data/hardware_readout_results.csv",
+    "source": "photon_manuscript_sources/extracted/Photon_Blockade_Allocation_Validation_Batched_Results/readout_results.csv",
+    "sha256": "ac0c449844cff754a9320f6339d37f8550a2b32b3fad41acc19c279744431b7c"
+  },
+  {
+    "file": "data/hardware_calibration_and_heldout.csv",
+    "source": "photon_manuscript_sources/extracted/Photon_Blockade_Allocation_Validation_Batched_Results/calibration_and_heldout.csv",
+    "sha256": "b78ca4171046c6f64aadc2164f8b52901ec899f7bb9ba69f72346309a0eafafc"
+  },
+  {
+    "file": "data/hardware_physical_job_costs.csv",
+    "source": "photon_manuscript_sources/extracted/Photon_Blockade_Allocation_Validation_Batched_Results/physical_job_costs.csv",
+    "sha256": "3c654f465c2b0861196eed10f279e8b2a33fa3cc8e02ed538802d0dd50564118"
+  },
+  {
+    "file": "data/hardware_science_blocks.csv",
+    "source": "photon_manuscript_sources/extracted/Photon_Blockade_Allocation_Validation_Batched_Results/science_blocks.csv",
+    "sha256": "306c23b257bad630d7825a2f75e440243f4e2a39d632feaba19f4f308207701e"
+  },
+  {
+    "file": "data/hardware_analysis_manifest.json",
+    "source": "photon_manuscript_sources/extracted/Photon_Blockade_Allocation_Validation_Batched_Results/analysis_manifest.json",
+    "sha256": "0bb9e2132d6e1ede98fbc27e072908aaa5a2583e42f98e643e1aab272ddc12e8"
+  },
+  {
+    "file": "data/hardware_collection_manifest.json",
+    "source": "photon_manuscript_sources/extracted/Photon_Blockade_Allocation_Validation_Batched_Results/collection_manifest.json",
+    "sha256": "8a5b5558ed428837e894d4200025d2e16d740480d9d8c0a9e73ae557bbb1cb39"
+  },
+  {
+    "file": "data/replication_validation_case_comparison.csv",
+    "source": "photon_manuscript_sources/extracted_refined/Photon_Blockade_Replication_Refined_Analysis/validation_case_comparison.csv",
+    "sha256": "89b7defc3d74889fd42ed9c3ba1522fc4bffd9e0d71ceb4bb594c018be775d12"
+  },
+  {
+    "file": "data/replication_candidate_designs.csv",
+    "source": "photon_manuscript_sources/extracted_refined/Photon_Blockade_Replication_Refined_Analysis/candidate_designs.csv",
+    "sha256": "e59aa3027cc6450897ba0796672d0b161f832d4a3c52f9d106fb505e6a8f2c2a"
+  },
+  {
+    "file": "data/replication_planning_study_grid.csv",
+    "source": "photon_manuscript_sources/extracted_refined/Photon_Blockade_Replication_Refined_Analysis/planning_study_grid.csv",
+    "sha256": "2492bfd3bef3a674d7305cfab306dc33635d837bb703519da43ab22c0cdd8cbc"
+  },
+  {
+    "file": "data/replication_validation_study_power.csv",
+    "source": "photon_manuscript_sources/extracted_refined/Photon_Blockade_Replication_Refined_Analysis/validation_study_power.csv",
+    "sha256": "258da7d6a9a739173399551a541664eccd3655a8d92fec3828f28d712497128f"
+  },
+  {
+    "file": "data/replication_simulation_summary.csv",
+    "source": "photon_manuscript_sources/extracted_refined/Photon_Blockade_Replication_Refined_Analysis/simulation_summary.csv",
+    "sha256": "68d7b07689ebaf1768198673b3306cb1f7c37fd90425ae7879e023ee4f1fe9e7"
+  },
+  {
+    "file": "data/replication_validation_summary.json",
+    "source": "photon_manuscript_sources/extracted_refined/Photon_Blockade_Replication_Refined_Analysis/validation_summary.json",
+    "sha256": "7bd963d37a10d68a84aec85df0fa693e19e2b5cdafa7f0fe0c7f1d5048ea149a"
+  },
+  {
+    "file": "data/hardware_targets.json",
+    "source": "Photon_Blockade_Allocation_Validation_Batched_Results.zip:schedule.json:targets",
+    "sha256": "c62dd6d763f9f3cc098667ade614fb0a9f8cc4f195b5e8b5241570de88eae616"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "status": "verified",
+  "archive_sha256": "53ae929c577c77752b4c5b9f47e9f982d8b9b438ad72fd17f1b88aebd71ec1bf",
+  "archive_members": 231,
+  "file_hashes_verified": 230,
+  "record_hashes_verified": 225,
+  "protocol_and_source_hashes_match_delivered_code": true,
+  "separately_uploaded_summary_matches_archive": true,
+  "summary_reconstructed_from_records": true,
+  "reference_cases": 217,
+  "followup_reference_cases": 202,
+  "initial_stress_reference_cases": 15,
+  "worst_reference_g2_shift": {
+    "case_key": "initial:C081",
+    "value": 1.5968780089448403e-07
+  },
+  "reference_tolerance": 2e-06,
+  "reference_tolerance_to_worst_shift_ratio": 12.524438240097803,
+  "worst_new_pair_g2_shift": {
+    "case_key": "initial:C081",
+    "value": 1.5968780089448403e-07
+  },
+  "worst_reference_mean_shift": {
+    "case_key": "initial:C081",
+    "value": 3.033117154697205e-08
+  },
+  "worst_new_pair_mean_shift": {
+    "case_key": "initial:C081",
+    "value": 3.033117154697205e-08
+  },
+  "new_guard_cases": 192,
+  "new_guard_passes": 192,
+  "new_guard_worst_scaled_error": {
+    "case_key": "followup:strong_drive-002-unequal",
+    "value": 0.016826563522709153
+  },
+  "original_known_misses_retained": [
+    {
+      "case_key": "initial:M037",
+      "scaled_error": 0.025138620966805098
+    },
+    {
+      "case_key": "initial:S037",
+      "scaled_error": 0.02539626895155114
+    }
+  ],
+  "independent_dense_checks": 5,
+  "time_integrations": 2,
+  "decoupled_reduction_checks": 1,
+  "empty_cavity_analytic_controls": 10,
+  "independent_max_probability_l1": 1.8415581559683147e-12,
+  "independent_max_scaled_g2_difference": 1.0908096946819188e-13,
+  "independent_max_relative_mean_difference": 1.1512105471799959e-14,
+  "independent_max_residual": 1.822121538810238e-11,
+  "empty_control_max_total_variation": 4.305727086023848e-16,
+  "actual_new_hardware_jobs": 0,
+  "actual_resource_units_used": 0,
+  "new_steady_state_solves_in_this_analysis": 0,
+  "limits": [
+    "The default full protocol covers 15 initial stress cases, not every initial case at larger new references.",
+    "Small reference changes and solver agreement are empirical numerical evidence, not a universal truncation bound.",
+    "Dense and time-integration comparisons are at finite cutoff m=4.",
+    "The archive stores numerical summaries rather than full density matrices at the larger cutoffs.",
+    "The new two-emitter cases are paired and structured; zero misses is not an iid population guarantee."
+  ]
+}

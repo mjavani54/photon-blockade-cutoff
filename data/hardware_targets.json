@@ -1,0 +1,24 @@
+{
+  "signal": {
+    "probabilities": [
+      0.8506072045762437,
+      0.14299557028874102,
+      0.006291996772074609,
+      0.00010522836294069695
+    ],
+    "target_g2": 0.5437676426767554,
+    "target_mean": 0.15589524892171233,
+    "origin": "Finite cutoff-3 population of polariton-027-equal from the preceding cavity calculation."
+  },
+  "control": {
+    "probabilities": [
+      0.856256415396469,
+      0.1315919202853497,
+      0.012151664318181325,
+      0.0
+    ],
+    "target_g2": 1.0,
+    "target_mean": 0.15589524892171233,
+    "origin": "Constructed finite number-label distribution with exactly matched mean and g2=1. This is not a simulated empty cavity."
+  }
+}

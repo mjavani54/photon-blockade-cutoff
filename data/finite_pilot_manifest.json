@@ -1,0 +1,365 @@
+{
+  "mode": "full",
+  "trials_per_pilot_size_and_condition": 64,
+  "seed": 720266,
+  "cutoff": 3,
+  "models": [
+    [
+      {
+        "case_id": "polariton-027-equal",
+        "reference_g2": 0.5450050331780175,
+        "reference_mean": 0.15594046578259962,
+        "finite_mean": 0.15589524892171233,
+        "finite_g2": 0.5437676426767554,
+        "probabilities": [
+          0.8506072045762437,
+          0.14299557028874102,
+          0.006291996772074609,
+          0.00010522836294069695
+        ],
+        "drive": 0.3191406575299937,
+        "cavity_detuning": 3.789378865427049,
+        "couplings": [
+          2.612798519217424,
+          2.612798519217424
+        ],
+        "emitter_detunings": [
+          3.789378865427049,
+          3.789378865427049
+        ],
+        "emitter_decays": [
+          0.2385829211957753,
+          0.2385829211957753
+        ],
+        "followup_guard_cutoff": 3,
+        "cutoff_budget": 0.025,
+        "shot_tolerance": 0.075
+      },
+      {
+        "case_id": "empty-for-polariton-027-equal",
+        "reference_g2": 1.0,
+        "reference_mean": 0.15621666600019757,
+        "finite_mean": 0.15589524892173642,
+        "finite_g2": 0.982223907321455,
+        "probabilities": [
+          0.8555260292238251,
+          0.13356706969211823,
+          0.010392524022551735,
+          0.0005143770615049063
+        ],
+        "drive": 0.19762127036341354,
+        "cavity_detuning": 0.0,
+        "cutoff_budget": 0.025,
+        "shot_tolerance": 0.075
+      }
+    ],
+    [
+      {
+        "case_id": "polariton-027-unequal",
+        "reference_g2": 0.523504049122009,
+        "reference_mean": 0.14421204584005776,
+        "finite_mean": 0.14418151067833296,
+        "finite_g2": 0.5224214488095251,
+        "probabilities": [
+          0.8611682126110182,
+          0.13356246980772113,
+          0.005188911873170065,
+          8.040570809056418e-05
+        ],
+        "drive": 0.3191406575299937,
+        "cavity_detuning": 3.789378865427049,
+        "couplings": [
+          2.7802567780299294,
+          2.433845609784681
+        ],
+        "emitter_detunings": [
+          3.932805615352724,
+          3.9527638602020776
+        ],
+        "emitter_decays": [
+          0.23041291540395747,
+          0.24675292698759307
+        ],
+        "followup_guard_cutoff": 3,
+        "cutoff_budget": 0.025,
+        "shot_tolerance": 0.075
+      },
+      {
+        "case_id": "empty-for-polariton-027-unequal",
+        "reference_g2": 1.0,
+        "reference_mean": 0.14442012210712227,
+        "finite_mean": 0.14418151067834264,
+        "finite_g2": 0.9844377047632514,
+        "probabilities": [
+          0.8656378355681676,
+          0.1249558690561049,
+          0.008993244504944667,
+          0.0004130508707828032
+        ],
+        "drive": 0.19001323776721601,
+        "cavity_detuning": 0.0,
+        "cutoff_budget": 0.025,
+        "shot_tolerance": 0.075
+      }
+    ],
+    [
+      {
+        "case_id": "polariton-032-unequal",
+        "reference_g2": 0.4924887878611985,
+        "reference_mean": 0.06072230550953758,
+        "finite_mean": 0.060721410634641336,
+        "finite_g2": 0.49233800163617547,
+        "probabilities": [
+          0.9401809740588984,
+          0.05892190374372653,
+          0.0008918597012102062,
+          5.2624961647986945e-06
+        ],
+        "drive": 0.14945591272884773,
+        "cavity_detuning": 2.7819239628280314,
+        "couplings": [
+          2.2639647936914478,
+          1.4184191769943495
+        ],
+        "emitter_detunings": [
+          2.5970699012662815,
+          2.774625406757534
+        ],
+        "emitter_decays": [
+          0.0947064351112043,
+          0.11498875217433817
+        ],
+        "followup_guard_cutoff": 2,
+        "cutoff_budget": 0.025,
+        "shot_tolerance": 0.075
+      },
+      {
+        "case_id": "empty-for-polariton-032-unequal",
+        "reference_g2": 1.0,
+        "reference_mean": 0.06072976977119203,
+        "finite_mean": 0.060721410634641315,
+        "finite_g2": 0.9967369586283348,
+        "probabilities": [
+          0.9410817074588657,
+          0.05714958564571951,
+          0.001734295697322945,
+          3.441119809197169e-05
+        ],
+        "drive": 0.12321705418811962,
+        "cavity_detuning": 0.0,
+        "cutoff_budget": 0.025,
+        "shot_tolerance": 0.075
+      }
+    ],
+    [
+      {
+        "case_id": "broad-015-unequal",
+        "reference_g2": 0.914454317973269,
+        "reference_mean": 0.15175477518349856,
+        "finite_mean": 0.15154323931438332,
+        "finite_g2": 0.9058469540999241,
+        "probabilities": [
+          0.8585306600170999,
+          0.13172308902534374,
+          0.00941860258362994,
+          0.0003276483739265694
+        ],
+        "drive": 0.28638766520741676,
+        "cavity_detuning": 1.9037509023799322,
+        "couplings": [
+          1.7725720778403535,
+          0.8513357063299736
+        ],
+        "emitter_detunings": [
+          2.1424856616941224,
+          1.6887143022790305
+        ],
+        "emitter_decays": [
+          0.30542525281493615,
+          0.5236341948312049
+        ],
+        "followup_guard_cutoff": 3,
+        "cutoff_budget": 0.025,
+        "shot_tolerance": 0.075
+      },
+      {
+        "case_id": "empty-for-broad-015-unequal",
+        "reference_g2": 1.0,
+        "reference_mean": 0.15183178979322556,
+        "finite_mean": 0.15154323931440214,
+        "finite_g2": 0.98305718020106,
+        "probabilities": [
+          0.859269773066647,
+          0.13039232994022193,
+          0.009862781605213412,
+          0.00047511538791779773
+        ],
+        "drive": 0.19482799451902796,
+        "cavity_detuning": 0.0,
+        "cutoff_budget": 0.025,
+        "shot_tolerance": 0.075
+      }
+    ]
+  ],
+  "scenarios": [
+    {
+      "name": "symmetric_0.005",
+      "rates": [
+        0.005,
+        0.005,
+        0.005,
+        0.005
+      ]
+    },
+    {
+      "name": "symmetric_0.01",
+      "rates": [
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ]
+    },
+    {
+      "name": "symmetric_0.02",
+      "rates": [
+        0.02,
+        0.02,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "name": "symmetric_0.03",
+      "rates": [
+        0.03,
+        0.03,
+        0.03,
+        0.03
+      ]
+    },
+    {
+      "name": "symmetric_0.05",
+      "rates": [
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "name": "asymmetric_msb_loss_0.05",
+      "rates": [
+        0.001,
+        0.001,
+        0.0001,
+        0.05
+      ]
+    }
+  ],
+  "cutoff_allowance": 0.025,
+  "shot_tolerance": 0.075,
+  "main_confidence": 0.95,
+  "pilot_box_confidence": 0.95,
+  "prospective_count_probability": 0.95,
+  "allocation_archive_sha256": "512a8fd1f21ea719fc43b53d4487e4f54606f08fff5f23eb67e264299030016b",
+  "calibration_grid_per_state": [
+    10000,
+    17783,
+    31623,
+    56234,
+    100000,
+    177828,
+    316228,
+    562341,
+    1000000,
+    1778279,
+    3162278,
+    5623413,
+    10000000
+  ],
+  "science_grid": [
+    1000,
+    1259,
+    1585,
+    1995,
+    2512,
+    3162,
+    3981,
+    5012,
+    6310,
+    7943,
+    10000,
+    12589,
+    15849,
+    19953,
+    25119,
+    31623,
+    39811,
+    50119,
+    63096,
+    79433,
+    100000,
+    125893,
+    158489,
+    199526,
+    251189,
+    316228,
+    398107,
+    501187,
+    630957,
+    794328,
+    1000000,
+    1258925,
+    1584893,
+    1995262,
+    2511886,
+    3162278,
+    3981072,
+    5011872,
+    6309573,
+    7943282,
+    10000000,
+    12589254,
+    15848932,
+    19952623,
+    25118864,
+    31622777,
+    39810717,
+    50118723,
+    63095734,
+    79432823,
+    100000000
+  ],
+  "pilot_sizes": [
+    {
+      "name": "small",
+      "shots_00": 20000,
+      "shots_11": 5000,
+      "science_shots": 50000
+    },
+    {
+      "name": "medium",
+      "shots_00": 100000,
+      "shots_11": 20000,
+      "science_shots": 250000
+    },
+    {
+      "name": "large",
+      "shots_00": 2000000,
+      "shots_11": 200000,
+      "science_shots": 5000000
+    }
+  ],
+  "runtime": {
+    "python": "3.14.6",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1"
+  },
+  "input_sha256": {
+    "run_finite_pilot.py": "4228fe218d11a5a27476c0ec21ca3bcb5e048cbd41327c3b5bafbdd8a2f0f229",
+    "readout_intervals.py": "5cee13fb4f1d5a4de5201dc10aa933ea9a435ff760897a8e5b52be3d4bf738a3",
+    "sampling.py": "831be34053ccf9757f7e8726465f58b8859574035a45d5d62bb393ba8c0879fe",
+    "finite_pilot_inputs.json": "592d721f808ea39509c9b7cb664c7ec46ddc5e8aff83d1ffe842fce5087d48ab"
+  }
+}

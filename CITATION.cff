@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this software and data package when reusing its code or results."
+type: software
+title: "Photon cutoff selection and measurement planning for quantum cavity correlations"
+version: "1.0.1"
+authors:
+  - family-names: "Javani"
+    given-names: "Mohammad"
+    affiliation: "Clark Atlanta University"
+keywords:
+  - photon blockade
+  - cavity quantum electrodynamics
+  - bosonic truncation
+  - measurement planning
+  - readout calibration
+  - reproducibility
