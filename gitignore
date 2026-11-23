@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local verification output
+/reproduced/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+qiskit-ibm.json
+
+# Desktop and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
+~$*
+
+# Private submission documents and bundles
+*.docx
+/Photon_Blockade_JPB_Reproducibility*.zip
+/Manuscript.md
+/Supplementary_Information.md
